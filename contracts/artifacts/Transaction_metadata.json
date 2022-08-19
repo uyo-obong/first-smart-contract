@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -52,7 +57,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "mininumUSD",
+				"name": "minimumUSD",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -61,6 +66,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -100,11 +125,11 @@
 			]
 		},
 		"contracts/Transaction.sol": {
-			"keccak256": "0x0b267d6a6bbb47c1a508f250727340a9cea3f3d185bf5da0a9d6eb7e87fb07af",
+			"keccak256": "0x8f66ed4fba89f71ee0cafe32f910f1e9781a4db9678bdf0878fdb7eaababaa96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://39cef731045c5c219aeeeb02a69ed84ff61ddefc0a9c8e049ba75a0fd06f2da6",
-				"dweb:/ipfs/QmNm2WcjqdKG38VW4fh2vkFUH7s3jfUgtcNTwYARqzHMXk"
+				"bzz-raw://45ed280b9e0cfeca604d75f4fbf6f7336a932e9bf969399760f7e209e84c6d7f",
+				"dweb:/ipfs/QmXSkUZMJoXcuuKYeQFCnGjntmPLMnnxp2o3nAnfZ4JJUt"
 			]
 		},
 		"contracts/library/PriceConverter.sol": {
